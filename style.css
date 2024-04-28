@@ -1,0 +1,56 @@
+body{
+    background: rgb(29, 29, 29);
+    color: rgb(142, 102, 228);
+    font-family: "Silkscreen";
+    text-shadow: 1px 1px 0 rgb(0, 0, 0);
+
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    position:fixed;
+    top: 330%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+input{
+    position:fixed;
+    top: 600%;
+    left:25%;
+    
+    caret-color:rgb(211,211,211);
+    background-color:rgb(29, 29, 29);
+    border-color:rgb(29, 29, 29);
+
+    border: none;
+
+    font-family:"Silkscreen";
+    color:rgb(211, 211, 211);
+
+}
+input::placeholder{
+    color:rgb(139, 139, 139);
+    font-family: "Silkscreen";
+    
+}
+input:focus, select:focus{
+    outline: none;
+}
+
+
+/*div {
+    height: 200px;
+    width: 400px;
+    background: black;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+*/
