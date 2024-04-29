@@ -1,7 +1,10 @@
+*{
+    font-family: "Silkscreen", "Verdana";
+}
+
 body{
     background: rgb(29, 29, 29);
     color: rgb(142, 102, 228);
-    font-family: "Silkscreen";
     text-shadow: 1px 1px 0 rgb(0, 0, 0);
 
     position: fixed;
@@ -28,13 +31,11 @@ input{
 
     border: none;
 
-    font-family:"Silkscreen";
     color:rgb(211, 211, 211);
 
 }
 input::placeholder{
     color:rgb(139, 139, 139);
-    font-family: "Silkscreen";
     
 }
 input:focus, select:focus{
